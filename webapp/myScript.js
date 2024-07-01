@@ -85,7 +85,7 @@ function fetchAndCompare(){
 					if(finalValidation){
 						console.log("becker")
 							loginCallback(userInput);
-					window.location = "/home/atsu/Banking-App/Dashboard 2/mainpage2/index.html";
+					window.location = "/Dashboard 2/mainpage2/index.html";
 					}
 					else{
 						alert("Invalid Username or Password");
