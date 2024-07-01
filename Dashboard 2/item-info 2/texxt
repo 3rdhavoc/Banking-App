@@ -1,0 +1,110 @@
+body {
+		font-size: 35px;
+}
+
+ #Menu {
+	width: 369px;
+	height: 915px;
+	background-color: #D9D9D9;
+	border-radius: 20px;
+	z-index: 1;
+	margin-left: 35px;	
+	margin-top: 10px;
+	border: 1px solid blue;
+	outline: 1px solid red;	
+	
+}
+#contcircle{
+	transform: translate(1px, 18px);
+}
+#circle {
+	height: 71px;
+	width: 71px;
+	border-radius: 50%;
+	background-color: #8C8787;
+	z-index: 2;
+}
+#infotab {
+	font-size: 0.7em;
+	transform: translate(90px, -72px);
+}
+
+.sectionline{
+	background-color: #8C8787;
+	width: 337px;
+	height: 10px;
+	border-radius: 20px;
+
+}
+#firstline {
+	transform: translate(10px, -60px);
+}
+#menutext {
+	font-size: 0.6em;
+
+
+}
+#firstsectxt {
+	padding-left: 20px;
+	transform: translate(0, -60px);
+
+}
+#secline {
+	transform: translate(10px, -40px);
+	
+}
+#secsctxt {
+	padding-left: 20px;
+	transform: translate(0, -40px);
+}
+#thirdline {
+	transform: translate(10px, -40px);
+}
+ #thrdtxt {
+ 		padding-left: 20px;
+ 			transform: translate(0, -40px);
+ }
+ #fourline {
+ 	transform: translate(10px, -40px);
+ }
+ #fourtxt {
+ 	padding-left: 20px;
+ 	transform: translate(0, -40px);	
+ }
+ .item-name{
+ 	outline: 3px solid orange;
+ 	border-radius: 20px;
+ 	position: absolute;
+ 	top: 10%;
+    left: 50%;
+ 	
+
+ }
+ .item-name p{
+ 	text-align: center;
+ 	font-size: 2em;
+ 	border-radius: 20px;
+ }
+
+ .profrnk {
+ 	height: 160px;
+ 	width: 300px;
+ 	outline: 2px solid violet;
+ 	transform: translate(400px, -870px);
+ 	border-radius: 20px;
+
+ }
+ .activrnk {
+ 	height: 160px;
+ 	width: 300px;
+ 	outline: 2px solid violet;
+ 	transform: translate(750px, -1030px);
+ 	border-radius: 20px;
+ }
+ .qtyrem {
+ 	height: 160px;
+ 	width: 300px;
+ 	outline: 2px solid violet;
+ 	transform: translate(1100px, -1190px);
+ 	border-radius: 20px;
+ }

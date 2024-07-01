@@ -1,0 +1,247 @@
+body {
+	font-size: 35px;
+}
+
+#Menu {
+	width: 369px;
+	height: 915px;
+	background-color: #D9D9D9;
+	border-radius: 20px;
+	z-index: 1;
+	margin-left: 35px;	
+	margin-top: 10px;
+	border: 1px solid blue;
+	outline: 1px solid red;	
+	
+}
+#contcircle{
+	transform: translate(1px, 18px);
+}
+#circle {
+	height: 71px;
+	width: 71px;
+	border-radius: 50%;
+	background-color: #8C8787;
+	z-index: 2;
+}
+#infotab {
+	font-size: 0.7em;
+	transform: translate(90px, -72px);
+}
+
+.sectionline{
+	background-color: #8C8787;
+	width: 337px;
+	height: 10px;
+	border-radius: 20px;
+
+}
+#firstline {
+	transform: translate(10px, -60px);
+}
+#menutext {
+	font-size: 0.6em;
+
+
+}
+#firstsectxt {
+	padding-left: 20px;
+	transform: translate(0, -60px);
+
+}
+#secline {
+	transform: translate(10px, -40px);
+	
+}
+#secsctxt {
+	padding-left: 20px;
+	transform: translate(0, -40px);
+}
+#thirdline {
+	transform: translate(10px, -40px);
+}
+ #thrdtxt {
+ 		padding-left: 20px;
+ 			transform: translate(0, -40px);
+ }
+ #fourline {
+ 	transform: translate(10px, -40px);
+ }
+ #fourtxt {
+ 	padding-left: 20px;
+ 	transform: translate(0, -40px);	
+ }
+ #firstactivbar{
+ 	height: 238px;
+ 	width: 356px;
+ 	background-color: #	;
+ 	transform: translate(400px, -800px);
+ 	border-radius: 20px;
+ 	font-size: 0.9em;
+    color: #000000;
+	padding-left: 10px;	
+ } 
+
+#actbartxt1 {
+	transform: translate(0, 10px);
+
+}
+}
+#pofitofweek { 
+	padding-left: 30px;
+ }
+#profitofweek {
+	transform: translate(0, -0px);
+	width: 300px;
+}
+#saleqty {
+	
+
+ transform: translate(150px, -80px);
+	}
+#saleqty  > p {
+	color: white;
+	font-size: 3em;
+	transform: translate(-10px, -80px);
+}
+#firstactivbar1{
+ 	height: 238px;
+ 	width: 356px;
+ 	background-color: #D9D9D9;
+ 	transform: translate(1385px, -1328px);
+ 	border-radius: 20px;
+ 	font-size: 0.9em;
+    color: #000000;
+	padding-left: 10px;	
+ } 
+
+#actbartxt2 {
+	transform: translate(0, 10px);
+
+}
+}
+#pofitofweek1 { 
+	padding-left: 30px;
+ }
+#profitofweek1{
+	transform: translate(0, -0px);
+	width: 300px;
+}
+#saleqty1 {
+	
+
+ transform: translate(150px, -80px);
+	}
+#saleqty1  > p {
+	color: white;
+	font-size: 3em;
+	transform: translate(-10px, -80px);
+}
+#secactivbar {
+	width: 593px;
+	height: 229px;
+	background-color: #D9D9D9;
+	border-radius: 20px;
+	transform: translate(780px, -1068px);
+}
+ #actbartxt2 {
+ 	transform: translate(20px, 5px);
+ }
+ #currincome{
+ 	font-size: 2em;
+ 	color: white;
+ 	transform: translate(20px, -40px);
+ }
+ #Inventorysec {
+ 	width: 1455px;
+ 	height: 641px;
+ 	background-color: #D9D9D9;
+ 	border-radius: 20px;
+ 	transform: translate(400px, -1338px);
+ }
+#mainbartxt {
+	font-size: 0.74em;
+transform: translate(12px, 10px);
+}
+#Headingfb {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	transform: translate(10px,-2px);
+	height: 60px;
+	
+	}
+	#Headingfb  li {
+		list-style: none;
+		display: inline-block;
+		padding-right: 80px;
+		font-size: 0.6em;
+	}
+	#Headingfb2 {
+		display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transform: translate(1000px, -62px);
+	
+		height: 60px;
+	}
+	#Headingfb2 li {
+		list-style: none;
+		display: inline-block;
+		padding-right: 80px;
+		font-size: 0.6em;
+
+	}
+	#contentofinv {
+		
+		transform: translate(0, -60px);
+		border-radius: 20px;
+		height:80% ;
+		width: 96%;
+		margin-left: 27px;
+
+	}
+	.contbox {
+		width: 100%;
+		border-radius: 20px;
+		background-color: #8C8787;
+		height: 70px;
+		margin-bottom: 15px;
+	}
+
+	.xactivity {
+		outline: 1px solid red;
+		transform: translate(30px, 15px);
+	}
+	.xactivity p {
+		outline: 1px solid blue;
+		margin: 0;
+		width: 50px;
+				text-align: center;
+	}
+	.xname{
+		margin: 0;
+		transform: translate(175px, -27px);
+		width: 800px;
+	}
+	.xname p {
+		margin: 0;
+		outline: 1px solid black;
+	}
+	.xborrower {
+		outline: 1px solid white;
+		margin: 0;
+		width: 150px;
+		transform: translate(1000px, -68px);
+	}
+	.xborrower p {
+		margin: 0;
+		text-align: center;
+	}
+	.xtasks {
+		outline: 1px solid green;
+		width: 150px;
+		transform: translate(1162px, -146px);
+		text-align: center;
+	}

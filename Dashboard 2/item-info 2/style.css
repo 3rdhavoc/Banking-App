@@ -1,0 +1,158 @@
+.page-layout {
+	display: grid;
+	grid-template-columns:23% 1fr;
+	grid-template-rows: 10% 1fr;
+	justify-content: center;
+	row-gap: 1rem;
+}
+
+#Menu {
+	
+	grid-row-start: 1;
+	grid-row-end: 3;
+	width: 23rem;
+	height: 67rem;
+	background-color: #D9D9D9;
+	border-radius: 20px;
+	margin-left: 2.2rem;	
+	margin-top:0.6rem;
+	outline: 1px solid red;	
+}
+
+.layout {
+
+	display: grid;
+align-content: space-evenly;
+	grid-template-rows: 0.3fr 0.2fr 1fr 0.5fr 0.5fr;
+	font-size: 1.2rem;
+	row-gap: 0.5rem;
+	
+
+
+}
+#circle {
+	
+	height: 71px;
+	width: 71px;
+	border-radius: 50%;
+	background-color: #8C8787;
+}
+#infotab {
+	font-size: 1.5rem;
+	display: flex;
+	outline: 1px solid blue;
+	
+}
+#infowords{
+	margin-left: 2rem;
+}
+.tasks {
+	display: flex;
+	justify-content: space-evenly;
+	padding-right: 8.4rem;	
+		outline: 1px solid red;
+}
+#secsctxt {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	padding-left: 3.1rem;
+		outline: 1px solid red;
+}
+#thrdtxt {
+	display: flex;
+	outline: 1px solid red;
+	flex-direction: column;
+	padding-left:3.1rem;
+
+}
+#fourtxt {
+	display: flex;
+	flex-direction: column;
+	padding-left: 3.1rem;
+	outline: 1px solid red;
+}
+
+.item-info {
+	grid-row: 1/2;
+	display: grid;
+	justify-content: center;
+	outline: 1px solid blue;
+	grid-template-rows: 70% 1fr;
+	row-gap: 0.7rem;
+	align-content: center;
+	height: 12rem;
+
+}
+.item-name {
+margin-top:0.6rem;
+background-color: #D9D9D9;
+border-radius: 1.3rem ;
+	
+font-size: 7rem;
+outline: 1px solid green;
+	
+text-align: center;
+
+
+
+
+}
+.labelhead {
+	display: flex;
+	justify-content: space-around;
+	outline: 1px solid yellow;
+	width: 90rem;
+	background-color:#D9D9D9;
+	border-radius: 1.3rem;
+
+}
+.item-name p {
+	margin: 0;
+	padding: 0;
+}
+.labelhead div{
+	display: flex;
+	font-size: 1rem;
+}
+.inventorypt {
+	grid-template-rows: 5% 1fr;
+
+}
+.info-list{
+	display: flex;
+	justify-content: space-around;
+	outline: 1px solid green;
+	background-color: #D9D9D9;
+	border-radius: 1.3rem;
+}
+.info-list p:nth-child(3){
+	padding-left: 30rem;
+}
+.chart{
+	display: flex;
+	margin-left: 6rem;
+	background-color:#D9D9D9 ;
+	margin-top: 2rem;
+	
+}
+.chart p:nth-child(1){
+	outline: 2px solid red;
+	width: 13rem;
+	text-align: center;
+}
+.chart p:nth-child(2){
+	outline: 2px solid orange;
+	width: 45rem;
+	text-align: center;
+}
+.chart p:nth-child(3){
+	outline: 2px solid violet;
+	width: 10rem;
+	text-align: center;
+}
+.chart p:nth-child(4){
+	outline: 2px solid green;
+	width: 15rem;
+	text-align: center;
+}

@@ -1,0 +1,271 @@
+
+#Dashboard {
+	display: grid;0
+	width: 100vh;
+	grid-template-columns: 1fr 2fr 2fr 1fr;
+	
+	column-gap: 2rem;
+}
+#Menu {
+	
+	grid-row-start: 1;
+	grid-row-end: 3;
+	width: 23rem;
+	height: 67rem;
+	background-color: #D9D9D9;
+	border-radius: 20px;
+	margin-left: 2.2rem;	
+	margin-top:0.6rem;
+	outline: 1px solid red;	
+}
+
+.layout {
+
+	display: grid;
+align-content: space-evenly;
+	grid-template-rows: 0.3fr 0.2fr 1fr 0.5fr 0.5fr;
+	font-size: 1.2rem;
+	row-gap: 0.5rem;
+	
+
+
+}
+#circle {
+	
+	height: 71px;
+	width: 71px;
+	border-radius: 50%;
+	background-color: #8C8787;
+}
+#infotab {
+	font-size: 1.5rem;
+	display: flex;
+	outline: 1px solid blue;
+	
+}
+#infowords{
+	margin-left: 2rem;
+}
+.tasks {
+	display: flex;
+	justify-content: space-evenly;
+	padding-right: 8.4rem;	
+		outline: 1px solid red;
+}
+#secsctxt {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	padding-left: 3.1rem;
+		outline: 1px solid red;
+}
+#thrdtxt {
+	display: flex;
+	outline: 1px solid red;
+	flex-direction: column;
+	padding-left:3.1rem;
+
+}
+#fourtxt {
+	display: flex;
+	flex-direction: column;
+	padding-left: 3.1rem;
+	outline: 1px solid red;
+}
+.firstactivbar{
+	
+	margin-top: 1rem;
+
+
+ 	height: 14.9rem;
+ 	width: 22rem;
+ 	background-color: #D9D9D9;
+ 	border-radius: 1.3rem;
+ 	
+	
+ }
+ .firstactivbar p {
+ 	font-size: 2rem;
+    color: #000000;
+    padding-left: 10px;	
+ }
+ .profitofweek{
+ 	margin-top: -2rem;
+ 	outline: 1px solid green;
+ 	display: flex;
+
+ 	
+
+ }
+ .actbartxt1 {
+ 	outline: 1px solid green;
+ 	height: 6rem;
+ 	margin-top: -1rem;
+ 	
+
+   
+ }
+ .saleqty {
+ 	margin-left: 6rem;
+ }
+ #secactivbar {
+ 	
+	width: 37em;
+	height: 14.3rem;
+	background-color: #D9D9D9;
+	border-radius: 20px;
+	margin-top: 1rem;
+
+	
+}
+#secactivbar p {
+	font-size: 2rem;
+    color: #000000;
+    padding-left: 10px;	
+
+}
+#actbartxt2{
+	outline: 1px solid blue;
+	margin-top: -1rem;
+}
+
+#currincome {
+	margin-top: -1rem;
+}
+.firstactivbar1 {
+	
+margin-top: 1rem;
+
+
+ 	height: 14.9rem;
+ 	width: 22rem;
+ 	background-color: #D9D9D9;
+ 	border-radius: 1.3rem;
+}
+.firstactivbar1 p {
+ 	font-size: 2rem;
+    color: #000000;
+    padding-left: 10px;	
+}
+ #Inventorysec {
+ 	width: 1455px;
+ 	height: 641px;
+ 	background-color: #D9D9D9;
+ 	border-radius: 20px;
+ 	grid-row-start: 2;
+ 	grid-column-start: 2;
+ 	grid-column-end: 5;	
+ 	display: grid;
+ 	grid-template-rows: 0.3fr 0.3fr 2.4fr;
+ 
+ }
+#mainbartxt {
+	padding-left: 2.5rem;
+	font-size: 1.5em;
+
+}
+#Headingfb {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	height: 60px;
+	
+	}
+	#Headingfb  li {
+		list-style: none;
+		display: inline-block;
+		padding-right: 80px;
+		font-size: 1.2rem;
+	}
+	#Headingfb2 {
+		display: flex;
+	justify-content: space-between;
+	align-items: center;
+margin-left: 45rem;
+	outline: 1px solid yellow;
+	
+		height: 60px;
+	}
+	#Headingfb2 li {
+
+		list-style: none;
+		display: inline-block;
+		padding-right: 80px;
+		font-size: 1.2rem;
+
+	}
+	#contentofinv {
+		
+		
+		border-radius: 20px;
+		max-height:80% ;
+		width: 96%;
+		margin-left: 27px;
+
+	}
+	.contbox {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		border-radius: 20px;
+		background-color: #8C8787;
+		
+		margin-bottom: 15px;
+	}
+
+	.xactivity {
+		outline: 1px solid red;
+			height: 100%;
+			
+
+		
+	}
+	.xactivity p {
+			font-size: 1.2rem;
+		outline: 1px solid blue;
+		margin-left: -1rem;
+		width: 50px;
+
+				text-align: center;
+	}
+	.xname{
+		margin: 0;
+		font-size: 1.2rem;
+		width: 800px;
+	}
+	.xname p {
+		margin: 0;
+		outline: 1px solid black;
+	}
+	.xborrower {
+		outline: 1px solid white;
+		margin: 0;
+		width: 150px;
+		font-size: 1.2rem;
+	
+	}
+	.xborrower p {
+
+		margin: 0;
+		text-align: center;
+	}
+	.xtasks {
+		outline: 1px solid green;
+		width: 150px;
+		font-size: 1.2rem;
+		
+		text-align: center;
+	}
+	#Headingf {
+		display: flex;
+
+	}
+#Headingfb li:nth-child(2){
+	margin-left: -1.5rem;
+}
+#Headingfb2 li:nth-child(2) {
+	margin-left: 2rem;
+
+}
