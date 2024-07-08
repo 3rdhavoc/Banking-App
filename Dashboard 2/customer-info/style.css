@@ -80,12 +80,14 @@ align-content: space-evenly;
 .nameofprs {
 	outline: 1px solid red;
 	width: 45rem;
-	font-size: 4rem;
+	height: 4rem;
+
+	font-size: 2rem;
 	padding: 0;
-	margin-top: 0.6rem;
 	text-align: center;
+	margin-left: 13rem;
 	margin-bottom: 3rem;
-	padding-bottom: 2rem;
+	
 }
 .amountowed{
 	display: flex;
@@ -94,19 +96,25 @@ align-content: space-evenly;
 	outline: 1px solid red;
 	padding: 0;
 	margin: 0;
+	margin-bottom:-3rem;
 	width: 45rem ;
 	height: 5rem;
+	margin-left: 13rem;
 }
 .headingftrans {
+  width: 40rem;
 	display: flex;
 	justify-content: space-around;
 	font-size: 1.2rem;
 	outline: 1px solid yellow;
-	margin-top: -3rem;
+	margin-top: 10rem;
+	margin-left: 13rem;
+	
 }
 .maintransrec {
+  width: 40rem;
 	display: flex;
 	justify-content: space-around;
 	background-color: #D9D9D9;
-	margin-left: -3rem;
+	margin-left: 13rem;
 }
