@@ -1,6 +1,6 @@
 
 #Dashboard {
-	display: grid;0
+	display: grid;
 	width: 100vh;
 	grid-template-columns: 1fr 2fr 2fr 1fr;
 	

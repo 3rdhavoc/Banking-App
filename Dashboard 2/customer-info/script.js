@@ -1,9 +1,9 @@
-
+let countsOfLoan = 0;
 const container = document.getElementById('transrecgp');
 let cookie = document.cookie.split('=');
 let nameOfLoggedInUser = 'Bret';
 
-function createRowOfInfo(itemNamer, qtfy, payer, daterOfPurchases) {
+function createRowOfInfo(itemNamer, qtfy, payer, daterOfPurchases, nameOfLoggedInUser) {
   const newDiv = document.createElement("div");
   newDiv.setAttribute('class', 'maintransrec');
 
@@ -19,14 +19,34 @@ function createRowOfInfo(itemNamer, qtfy, payer, daterOfPurchases) {
   const dateOfPurchase = document.createElement('p');
   dateOfPurchase.setAttribute('id','date')
   dateOfPurchase.textContent = daterOfPurchases;
+const nameOfP = document.querySelector('.nameofprs');
 
-  const arraysOfVar = [dateOfPurchase,itemName, qty, payAmount, ];
+nameOfP.textContent = nameOfLoggedInUser;
+  const arraysOfVar = [dateOfPurchase,itemName, qty, payAmount];
   arraysOfVar.forEach((a) => {
     newDiv.appendChild(a);
   })
 
   container.appendChild(newDiv);
+  fetch('/price.json')
+  .then(response => response.json())
+  .then(data => {
+  const rateToCompare = data.Cocoa;
+  const nameOfStatus = document.createElement('p')
+  newDiv.appendChild(nameOfStatus);
+  
+  if(payer < rateToCompare*qtfy){
+    nameOfStatus.textContent= 'loaned';
+    countsOfLoan++;
+    console.log(countsOfLoan);
+  }
+  else {
+    nameOfStatus.textContent = 'fully paid';
+  }
+  })
 }
+
+
 
 fetch('/data.json')
   .then(response => {
@@ -47,9 +67,11 @@ fetch('/data.json')
         const itemNamer = key;
         console.log(itemNamer);
         const value = dataForDates[key];
+        console.log(value);
         const qtfy = value.qty;
         const payer = value.payedInCedis;
-        createRowOfInfo(itemNamer, qtfy, payer, daterOfPurchases);
+        createRowOfInfo(itemNamer, qtfy, payer, daterOfPurchases, nameOfLoggedInUser);
+    
       }
     }
   })

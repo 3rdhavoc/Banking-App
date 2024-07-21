@@ -16,7 +16,9 @@ function createRowOfInfo(itemNamer, qtfy, payer, daterOfPurchases, container) {
   const dateOfPurchase = document.createElement('p');
   dateOfPurchase.setAttribute('id','date')
   dateOfPurchase.textContent = daterOfPurchases;
-
+  itemName.addEventListener('click', function(){
+    window.location = '/Dashboard 2/customer-info/index.html';
+  })
   const arraysOfVar = [dateOfPurchase,itemName, qty, payAmount, ];
   arraysOfVar.forEach((a) => {
     newDiv.appendChild(a);
